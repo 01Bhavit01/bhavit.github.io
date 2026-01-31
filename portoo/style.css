@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+.email-card {
+    max-width: 100%;
+    border: 1px solid #e5e7eb;
+}
+
+.email-preview {
+    line-height: 1.5;
+    max-width: 65ch;
+}
+
+.email-preview p {
+    margin-bottom: 1em;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom selection color */
+::selection {
+    background: #3E96F4;
+    color: white;
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+    .email-preview {
+        font-size: 0.9375rem;
+    }
+}
